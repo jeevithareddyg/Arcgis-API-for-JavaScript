@@ -1,0 +1,21 @@
+let graphic = new Graphic({
+attributes:{
+id:1,.
+city:"losAngels"
+},
+geometry:{type:"point", X:xValve, y:yValue},
+symbol: {type:"simple-marker",
+style:'circle',
+color:'red',
+size:10,
+outline:{
+color: 'rgba(255, 255, 255, 0.5)'
+width: 4
+}
+},
+popuptemplate:{
+title: "my awsome product",
+content: "{*}"// dispaly all fields
+}
+});
+graphicslayer.add(graphic);
